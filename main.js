@@ -1,13 +1,13 @@
-/*var liczba1= 2;
-var liczba2= 18;
-*/
-function multiply (liczba1,liczba2){
-    var result
+var liczba1 = 2;
+var liczba2 = 18;
+
+function multiply() {
+   
     if (liczba1==20||liczba2==20||liczba1+liczba2<=20){
         console.log(true);
     }else{
         console.log(false);
     }
-    return result;
+    return (liczba1, liczba2);
  }
-multiply();
+console.log (multiply(liczba1, liczba2));
