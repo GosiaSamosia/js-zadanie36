@@ -1,13 +1,13 @@
 var liczba1 = 2;
-var liczba2 = 18;
+var liczba2 = 19;
 
-function multiply() {
+function prawdafalsz(liczba1, liczba2) {
    
     if (liczba1==20||liczba2==20||liczba1+liczba2<=20){
-        console.log(true);
+        return true;
     }else{
-        console.log(false);
+        return false;
     }
     return (liczba1, liczba2);
  }
-console.log (multiply(liczba1, liczba2));
+console.log (prawdafalsz(liczba1,liczba2));
